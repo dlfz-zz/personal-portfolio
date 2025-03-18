@@ -1,0 +1,83 @@
+/* 全局样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* 去除 <a> 标签的默认样式 */
+a {
+    text-decoration: none; /* 去除下划线 */
+    color: inherit; /* 继承父元素的文本颜色 */
+    outline: none; /* 去除聚焦时的轮廓线 */
+}
+
+/* 去除 <a> 标签在不同状态下的样式 */
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none; /* 去除所有状态下的下划线 */
+    color: inherit; /* 继承父元素的文本颜色 */
+}
+
+/* 头部样式 */
+header {
+    background-color: #FED6DD;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* 作品集容器样式 */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 作品项样式 */
+.portfolio-item {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* 作品图片样式 */
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 作品详情样式 */
+.item-details {
+    padding: 20px;
+}
+
+.item-details h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.item-details p {
+    margin: 0;
+}
+
+/* 底部样式 */
+footer {
+    background-color: #A8B3DF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
