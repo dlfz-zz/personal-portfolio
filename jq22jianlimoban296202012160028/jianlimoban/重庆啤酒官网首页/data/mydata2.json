@@ -1,0 +1,20 @@
+[
+    { "title": "重庆啤酒2024年第一季度报告", 
+      "image": "./images/xiazai.png", 
+      "weburl":"https://www.carlsbergchina.com.cn/media/klgjgpwk/2024%E5%B9%B4%E4%B8%80%E5%AD%A3%E6%8A%A5.pdf" },
+    { "title": "重庆啤酒2023年年度报告", 
+      "image": "./images/xiazai2.png",
+      "weburl":"https://www.carlsbergchina.com.cn/media/1badxxb0/2023%E5%B9%B4%E6%8A%A5.pdf" },
+    { "title": "重庆啤酒2023年第三季度报告",
+      "image": "./images/xiazai3.png",
+      "weburl":"https://www.carlsbergchina.com.cn/media/beuet2tl/%E9%87%8D%E5%BA%86%E5%95%A4%E9%85%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf"},
+    { "title": "重庆啤酒2023年半年度报告",
+      "image": "./images/xiazai4.png",
+      "weburl":"https://www.carlsbergchina.com.cn/media/zn5d0meq/%E9%87%8D%E5%BA%86%E5%95%A4%E9%85%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B82023%E5%B9%B4%E5%8D%8A%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf" },
+    { "title": "重庆啤酒2023年第一季度报告",
+     "image": "./images/xiazai5.png",
+      "weburl":"https://www.carlsbergchina.com.cn/media/yhnk0uqd/%E9%87%8D%E5%95%A4%E8%82%A1%E4%BB%BD2023%E4%B8%80%E5%AD%A3%E6%8A%A5.pdf" },
+    { "title": "更多",
+     "image": "./images/xiazai6.png",
+      "weburl":"https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=600132"}
+]
