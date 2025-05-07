@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+</head>
+<body>
+    <!--导航-->
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html"><img src="images/black.png" width="185px"></a>
+        </div>    
+   
+     <ul class="nav1">
+        <li><div class="box7"><a href="#">靓号站</a></div></li>
+        <li>
+            <div class="box2">
+                <div class="box7"><a href="index2.html">功能特权</a></div>
+                <div class="menu2">
+                    <div class="box3">
+                        <a href="index2.html">全部特权</a></div>
+                    <div class="box4">
+                        <a href="index2.html">分等级特权</a></div>
+               </div>
+            </div>
+        </li>
+        <li><div class="box7"><a href="#">游戏特权</a></div></li>
+        <li>
+            <div class="box2">
+             <div class="box7"><a href="#">成长体系</a></div>
+              <div class="menu3">
+                <div class="box5">
+                    <a href="#">任务中心</a>
+                </div>
+                <div class="box6">
+                    <a href="#">排名中心</a>                
+                </div>
+              </div>        
+            </div>
+        </li>
+        <li><div class="box7"><a href="#">年费专区</a></div></li>
+        <li><div class="box7"><a href="#">免流量特权</a></div></li>
+     </ul>
+     <button class="myBtn" type="button">登录</button>
+    </div>
+    <!--导航end-->
+    <!--图片-->
+    <!--图片轮播-->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/game1.jpg" width="1500px">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/game2.jpg"width="1500px">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/game3.jpg"width="1500px">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/game4.png"width="1500px">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>        
+        var mySwiper = new Swiper ('.swiper', {
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+        })        
+        </script>
+    <!--图片轮播end-->
+    <!--新游抢先玩-->
+    <div class="xinyou">
+        <div class="nr">
+        <div class="xy">
+        <span>新游抢先玩</span>
+        <div class="jycw">
+            <div class="jw">
+                <a href="#"><img src="images/ga1.jpg">
+                <p>【剑灵】预约领Q币、测试资格</p></a>
+            </div>
+            <div class="jw">
+                <a href="#"><img src="images/xy2.jpg">
+                <p>【御龙在天】3款会员定制装扮首发</p></a>
+            </div>
+            <div class="jw">
+                <a href="#"><img src="images/xy3.jpg">
+                <p>【CF】首个异形黑色烟雾 专属特效武器限时领</p></a>
+            </div>
+            <div class="jw">
+                <a href="#"><img src="images/xy4.jpg">
+                <p>【无畏契约】全息波普套装 电光出击</p></a>
+            </div>
+        </div>
+        </div>
+        <div class="rd">
+                <span>新游热度榜</span> 
+                <div class="im">
+                <img src="images/jiantou_02.png">
+                <img src="images/jiantou2_04.png">
+                </div>
+                <div class="redu">
+                <ul>
+                    <li>
+                        <img src="images/rd1.webp" width="60px">
+                        <a href="#"><div class="lf">流放之路</div>
+                        <div class="yy">预约领史诗套装</div></a>
+                    </li>
+                    <li>
+                        <img src="images/rd2.webp" width="60px">
+                        <a href="#"><div class="lf">上古世纪</div>
+                        <div class="sg">上古世纪</div></a>
+                    </li>
+                    <li>
+                        <img src="images/rd3.webp" width="60px">
+                        <a href="#"><div class="yyq">抢内测资格</div>
+                        <div class="yg">预约抢内测资格</div></a>
+                    </li>
+                    <li>
+                        <img src="images/rd4.webp" width="60px">
+                        <a href="#"><div class="lf">流放之路</div>
+                        <div class="yy">怪物猎人激活码</div></a>
+                    </li>
+                </ul>
+                 </div>
+        </div>
+        </div>
+    </div>
+    <div class="remen">
+        <div class="rm">
+        热门手游<span>热门页游</span>
+        </div>
+        <ul>
+            <li>
+                <img alt="" src="images/xiazai1.jpg" onMouseOver="this.src='images/erweima1.png'" onMouseOut="this.src='images/xiazai1.jpg'">
+            </li>
+            <li>
+                <img alt="" src="images/xiazai2.jpg" onMouseOver="this.src='images/erweima2.png'" onMouseOut="this.src='images/xiazai2.jpg'">
+            </li>
+            <li>
+                <img alt="" src="images/xiazai3.jpg" onMouseOver="this.src='images/ewm3.png'" onMouseOut="this.src='images/xiazai3.jpg'">
+            </li>
+            <li>
+                <img alt="" src="images/xiazai4.jpg" onMouseOver="this.src='images/ewm4.png'" onMouseOut="this.src='images/xiazai4.jpg'">
+            </li>
+        </ul>
+    </div>
+    
+        <!--底部logo-->
+        <div class="logo2">
+            <div class="logo1">
+                <div class="libox">
+                <div class="libox1">
+                <a href="#"><img src="images/111_03.png" ></a></div>
+                <p>官方手Q账号</p>
+                </div>
+        
+                <div class="libox">
+                <div class="libox1"><a href="#"><img src="images/222_06.png"></a></div>
+                <p>官方微信账号</p>
+                </div>
+        
+                <div class="libox">
+                <div class="libox1"><a href="#"><img src="images/555_12.png" ></a></div>
+                <p>官方空间</p>
+                </div>
+        
+                <div class="libox">
+                <div class="libox1"><a href="#"><img src="images/44_12.png" ></a></div>
+                <p>话费开通专区</p>
+                </div>
+        
+                <div class="libox">
+                <div class="libox1"><a href="#"><img src="images/333_08.png"></a></div>
+                <p>兑换中心</p>
+                </div>
+        
+                <div class="libox">
+                <div class="libox1"><a href="#"><img src="images/666_16.png" ></a></div>
+                <p>客服中心</p>
+                </div>
+            </div>
+        </div>
+            <!--底部logo end-->
+                <!--footer-->
+                <div class="footer">
+                    商务合作请联系 yolodomzhou@tencent.com
+                    <p>
+                        Copyright © 1998 - 2023 Tencent . All Rights Reserved
+                    </p>
+                    <p>
+                        腾讯公司 版权所有
+                    </p>
+                </div>
+                <!--footer end -->
+           
+        
+        
+            
+</body>
+</html>

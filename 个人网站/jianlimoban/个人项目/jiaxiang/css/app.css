@@ -1,0 +1,498 @@
+.back1{
+    z-index: -99;
+    position: relative;
+    text-align: center;
+}
+.nav {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    margin-top: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+  
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.nav li {
+    float: left;
+    padding-left: 50px;
+}
+.nav span{
+    padding-right: 66px;
+}
+.nav a {
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav span:hover {
+    color:  #e3efef;
+}
+.nav a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+.cqps{
+    text-align: center;
+    color: #76533e;
+    font-size: 80px;
+    text-align: center;
+    margin-top: -650px;
+}
+.cqps p{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.swty{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    font-size: 20px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.sizhi {
+    margin-top: 50px;
+    height: 1000px;
+    background: url(../img/sizhi.png);
+    background-position: no-repeat;
+    background-size: 100%;
+}
+
+.ps{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 250px;
+}
+.psjj img{
+    padding-right: 10px;
+}
+.psjj2 img{
+    padding-right: 10px;
+}
+.psimg{
+    display: flex;
+    justify-content: space-between;
+}
+.psimg img{
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.psimg img:hover{
+    transform: scale(1.1);
+}
+.pswz span{
+    padding-left: 40px;
+}
+.pswz{
+    margin-top: 30px;
+}
+.pswz p{
+    padding-top: 10px;
+}
+.fenge{
+    padding-top: 100px;
+    z-index: 10;
+}
+.lvyou{
+    height: 750px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: url(../images/back2.png) no-repeat;
+    background-size: 100%;
+}
+.psjj{
+    font-size: 20px;
+}
+.psjj2{
+    font-size: 20px;
+    padding-top: 100px;
+}
+.lunbo {
+    padding-top: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.lunbo button {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    margin: 0 10px; /* 设置按钮与图片的间距 */
+}
+.lunbo img {
+    max-width: 100%;
+}
+
+.lunbo.prev {
+    left: 0; /* 将上一张按钮定位到最左侧 */
+}
+
+.lunbo.next {
+    right: 0; /* 将下一张按钮定位到最右侧 */
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px; /* 根据图片实际大小等调整合适高度 */
+    overflow: hidden; /* 隐藏超出容器的部分，实现图片移动效果 */
+}
+
+.slide {
+    width: 300px; /* 根据图片实际尺寸调整宽度 */
+    height: 100%;
+    margin: 0 10px; /* 图片之间的间距 */
+    transition: transform 0.5s ease; /* 添加过渡效果，让图片移动更平滑 */
+    transform: scale(0.8); /* 初始让图片缩小一点，方便后续放大中间图片 */
+}
+
+.slide.active {
+    transform: scale(1); /* 中间图片放大到原始大小或更大，突出显示 */
+}
+.blue{
+    background-color: #e3efef;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayh{
+    width:220px;
+    background-color: #fff;
+    height: 568px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #76533e;
+}
+.bl2{
+    padding-top: 60px;
+    transition: all 0.5s;
+}
+.bl2:hover{
+    transform:translateY(-30px);
+}
+.ayh2{
+    width:220px;
+    background-color: #fff;
+    height: 568px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fenge2 img{
+    display: block;
+}
+.white{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    background-color: #fff;
+    height: 750px;
+    width: 100%;
+}
+.white a{
+    color: #232323;
+}
+.white a:hover{
+    color: #232323;
+
+}
+.fwxc{
+    padding-top: 30px;
+    background-color: #fff;
+    height: 550px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fw img{
+    border-radius: 10px;
+    float: left;
+    transition: all 0.5s;
+}
+.fw img:hover{
+    transform: translateX(20px);
+}
+.fw span{
+    float: right;
+    padding-left: 40px;
+}
+.fw{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.techan{
+    height: 750px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: url(../images/back3.png) no-repeat;
+    background-size: 100%;
+    
+}
+.psjj2{
+    font-size: 20px;
+    padding-top: 100px;
+}
+.tc{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.pstc a{
+    color: #232323;
+}
+.pstc a:hover{
+    text-decoration: none; /* 去除下划线 */
+    color: #76533e;
+}
+.tcc>span{
+    padding-left: 20px;
+    transition: all 0.1ms;
+}
+.tcc>img{
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.tcc img:hover{
+    transform: scale(1.1);
+}
+.mapwenzi{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    font-size: 50px;
+}
+.mapwenzi span{
+   padding-left: 100px;
+}
+
+.map{
+    margin-left: 100px;
+    float: left;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #232323;
+    color: #fff;
+    padding-left: 100px;
+    font-size: 12px;
+}
+footwenzi{
+    float: left;
+}
+.fpic{
+    padding-left: 300px;
+    padding-right: 20px;
+}
+.fpic2{
+    padding-right: 20px;
+}
+
+@media(max-width:600px) {
+    /* 导航栏样式调整 */
+  .nav {
+      flex-direction: column;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+  .nav ul {
+      width: 100%;
+    }
+
+  .nav li {
+      float: none;
+      padding-left: 0;
+      text-align: center;
+    }
+
+  .nav span {
+      padding-right: 0;
+    }
+
+    /* 图片布局调整示例 */
+  .psimg {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  .psimg img {
+      display: none;
+    }
+    .cqps{
+        display: none;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    button {
+      font-size: 18px;
+    }
+
+    /* 其他元素根据需要进一步调整样式，比如间距、宽度等 */
+  .sizhi {
+      padding: 20px;
+      height: auto;
+      background-image: none;
+    }
+
+  .ps {
+      padding: 20px;
+    }
+
+  .lvyou {
+      padding: 20px;
+      height: auto;
+      background-image: none;
+    }
+    .lunbo{
+        display: none;
+    }
+    .blue{
+        width: 100%;
+    }
+    .ayh{
+        width: 25%;
+    }
+    .ayh2{
+        width: 25%;
+    }
+   .bl2{
+    width: 100px;
+   }
+    .fw span{
+        display: none;
+    }
+    .fwxc{
+        background-color: #fff;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fw{
+        width: 100px;
+        float: left;
+    }
+    .fw img{
+        width: 100px;
+    }
+   .white {
+      padding: 20px;
+      height: auto;
+    }
+
+   .techan {
+      padding: 20px;
+      height: auto;
+      background-image: none;
+    }
+    .tcc{
+        padding-top: 10px;
+    }
+    .tcc img{
+        width: 100px;
+    }
+
+   .mapwenzi {
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start;
+    }
+
+   .map {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+
+   .footer {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+
+   .fpic {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+    /* 例如对某些元素的宽度、间距等进行微调 */
+  .ps {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .lunbo{
+        padding-top: 0;
+    }
+
+  .lvyou {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+   .white {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .fw{
+        float: left;
+    }
+    .fw img{
+        width: 100px;
+    }
+    .fw span{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .fenge img{
+        width: 100%;
+    }
+    .fenge2 img{
+        width: 100%;
+    }
+}
+
+ 
